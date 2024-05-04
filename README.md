@@ -1,2 +1,2 @@
 # pythonLearning
-important concepts in python
+Important concepts in python
