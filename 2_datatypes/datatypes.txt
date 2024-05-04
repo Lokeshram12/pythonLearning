@@ -1,0 +1,16 @@
+<!-- 
+Object/data types -->
+
+Number
+String
+List -[]  list()
+Tuple -() namedtuple()
+Dictionary dict()
+Set    set()
+File
+Boolean-True,False
+None
+
+Functions,modules,classes
+
+Decorators,Generators,Iterators
