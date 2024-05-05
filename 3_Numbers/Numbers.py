@@ -17,3 +17,8 @@ print(random.randint(1,10))
 
 l1=[1,4,22,55]
 print(random.choice(l1)) #similar use shuffle
+
+import decimal
+
+
+print(decimal.Decimal('0.1')+decimal.Decimal('0.1'))
