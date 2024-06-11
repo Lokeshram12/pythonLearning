@@ -32,3 +32,5 @@ message='hello world'
 print(message.count('o')) #2
 
 
+print(dir(message)) #all methods of this particular string
+
