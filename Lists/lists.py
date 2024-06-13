@@ -22,3 +22,9 @@ square_num= [x**2 for x in range(10)]
 print(square_num)
 
 # =,copy()->shallow copy not good for nested lists,deepcopy()->works for all types of lists
+
+list=[10,20,30,47]
+
+print(list[0:2])
+
+# .sort()  , sorted(array)

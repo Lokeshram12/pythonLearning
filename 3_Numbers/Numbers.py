@@ -6,7 +6,7 @@ print(x//y) #1
 
 print(x%y) #3
 
-# boolean -True, False
+# boolean - True, False
 
 import random
 
