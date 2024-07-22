@@ -7,3 +7,6 @@ elif user_age<60:
     print("Adult")
 else:
     print("Senior")
+
+
+# exit() - stop the program
