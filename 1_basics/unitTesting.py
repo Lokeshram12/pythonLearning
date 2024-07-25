@@ -1,5 +1,3 @@
-
-
 import unittest
 
 def factorial(n):
