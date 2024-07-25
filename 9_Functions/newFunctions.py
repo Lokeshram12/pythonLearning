@@ -4,12 +4,6 @@ def square(number):
 ans=square(4)
 print(ans)
 
-def sum(a,b):
-    return a+b
-
-ans=sum(4,5)
-print(ans)
-
 def mul(p1,p2):
     return p1*p2
 ans=mul('d',5)
@@ -29,3 +23,26 @@ def greet(name="User"):
     return "Hello, " + name 
 
 print(greet())
+
+# lambda function
+
+cube= lambda x:x**3
+print(cube(4))
+
+#  *args and *kwargs
+
+def sum_all(*args):
+    return sum(args)
+
+print(sum_all(1,2))
+print(sum_all(1,2,5,4,))
+print(sum_all(1,2,6,3,7,8,3))
+
+# generator function that yields even numbers from a specified limit
+
+def even_generator(limit):
+    for i in range(2, limit + 1, 2):
+        yield i
+for num in even_generator(10):
+    print(num)
+
