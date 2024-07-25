@@ -21,3 +21,4 @@ def monitor_memory(interval_seconds=1, duration_seconds=10):
 
 # Example usage: Monitor memory for 30 seconds with an interval of 2 seconds
 monitor_memory(interval_seconds=2, duration_seconds=30)
+
