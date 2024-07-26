@@ -4,3 +4,5 @@ list vs tuple vs set vs dictionary
 
 __init__ , __str__ , __next__
 
+constructor,
+
