@@ -7,9 +7,11 @@ url = 'http://books.toscrape.com'
 # Send a GET request to the website
 response = requests.get(url)
 
+# print(response)
 # Check if the request was successful
 if response.status_code == 200:
     # Parse the HTML content
+    # print(response.content)
     soup = BeautifulSoup(response.content, 'html.parser')
     
     # Find all book containers
