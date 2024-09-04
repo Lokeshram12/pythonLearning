@@ -3,3 +3,4 @@ pip install virtualenv
 virtualenv .venv
 
 to activate - source .venv/bin/activate
+ to deactivate - deactive
