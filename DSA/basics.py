@@ -4,11 +4,12 @@
 #  Write a Python function to generate the Fibonacci sequence up to `n` terms.
 
 def fib(n):
-    if n<1:
+    if n==0 or n==1:
         return n
     else:
-        return fib(n-1)+fib(n-2)
+         return fib(n-1)+fib(n-2)
 
 ans = fib(3)
 print(ans)
+
 #  Write a Python function to find common elements between two lists.
