@@ -15,6 +15,8 @@ print(unique_list)   #output : [1, 2, 3, 4, 5, 7]
 #  Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 #  Write a Python function to count the frequency of each character in a string using a dictionary.
 #  Write a Python function to find the first non-repeating character in a string and return its index.
+
+
 #  Write a Python function to reverse the digits of an integer.
 def reverse_integer(n):
    
@@ -36,7 +38,3 @@ num2 = -67890
 
 print(reverse_integer(num1))  # Output: 54321
 print(reverse_integer(num2))  # Output: -09876 (which will be printed as -9876)
-#  Write a Python function to check if a string is a palindrome.
-#  Write a Python function to remove duplicates from a list while maintaining the original order.
-#  Write a Python function to generate the Fibonacci sequence up to `n` terms.
-#  Write a Python function to find common elements between two lists.
