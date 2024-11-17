@@ -28,11 +28,20 @@ def index():
     return "Welcome to the Drinks API!"
 
 
-@app.route('/drinks')
-def get_drinks():
+@app.route('/drinks/<id>')
+def get_drinks(id):
     """Fetch all drinks from the database."""
     drinks = Drink.query.all()
     return jsonify([drink.to_dict() for drink in drinks])
+
+@app.route('/drinks', methods=['POST'])
+def add_drinks():
+    
+    drinks = Drink(name=request.json['name'],description=request.json['description'])
+    db.session.add(drink)
+    db.session.commit()
+    return {'id':drink.id}
+
 
 
 # Ensure database is initialized
@@ -41,10 +50,9 @@ with app.app_context():
     # Add a sample drink if the table is empty
     if not Drink.query.first():
         drink = Drink(name="Grape", description="Tastes like grapes")
-        
         db.session.add(drink)
         db.session.commit()
-        print("Sample drink added successfully!")
+        
 
 
 if __name__ == '__main__':
